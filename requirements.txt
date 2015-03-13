@@ -1,0 +1,13 @@
+Mentees will be matched with mentors form 3 different degree programs.
+100 mentees and 100 mentors. Each mentor will be given two potential mentees and each mentee would be able to work with one or obth of their assigned mentors.
+They have didived attributes into high, mid and low level priorities. CHECK THESE OUT USING THE HISTORICAL DATA FIRST.
+
+Accept CSV or XLS import from excel.
+python script
+output csv
+
+
+Naive approach: Score based on the number of same answers, normalized by the weights provided.
+Edit: Make your own adjustments to weights based on historical matches. Update a weights file based on that?
+
+Alternate: Weighted K Nearest neighbors. Plot based on value of attributes, get 2 nearest neighbors.
